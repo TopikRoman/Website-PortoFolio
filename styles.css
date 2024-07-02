@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.navbar {
+  background-color: #0284c7;
+}
+
+.jumbotron {
+  background-color: transparent;
+  padding: 3rem 2rem;
+}
+
+.jumbotron h4 {
+  color: #0284c7;
+}
+
+.jumbotron h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.jumbotron .description {
+  font-size: 1.1rem;
+  color: #666666;
+}
+
+.jumbotron .btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+}
+
+.jumbotron .btn-outline-primary {
+  color: #0284c7;
+  border-color: #0284c7;
+}
+
+.jumbotron .btn-outline-primary:hover {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+.social-links .social-icon {
+  font-size: 30px;
+  color: #0284c7;
+  margin: 0 10px; /* Menambahkan margin antara ikon */
+  transition: color 0.3s;
+}
+
+@keyframes beatFade {
+  0%,
+  100% {
+    transform: scale(1);
+    color: #007dc3;
+  }
+  50% {
+    transform: scale(1.2);
+    color: #666666;
+  }
+}
+
+.social-links .social-icon:hover {
+  animation: beatFade 1s infinite;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+}
+
+.col {
+  background-color: #e0f2fe;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  position: relative;
+}
+
+.colProjects {
+  background-color: white;
+  text-align: center;
+  padding: 50px 0;
+  position: relative;
+}
+
+.title {
+  font-size: 36px;
+  color: #334155;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.col .subtitle {
+  color: #334155;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+}
+
+.colProjects .subtitle {
+  color: #334155;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+}
+
+.cards {
+  background-color: #e0f2fe;
+}
+
+.line {
+  width: 200px;
+  height: 3px;
+  background-color: #334155;
+  margin: 6px auto;
+  position: relative;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  background-color: #334155;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: -4px;
+  transform: translateX(-50%);
+}
+
+.container-logo-skill {
+  background-color: #e0f2fe;
+}
+
+.badgeMedium {
+  display: inline-block;
+  background-color: #ffefc1;
+  color: #ff9800;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.badgeBasic {
+  display: inline-block;
+  background-color: #d1ecf1;
+  color: #0c5460;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.col h3 {
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #334155;
+  font-size: 18px;
+}
+
+.logoContainer {
+  place-content: center;
+  width: auto;
+  height: 100px;
+}
+
+.logo {
+  width: auto;
+  height: 100px;
+}
+
+.logoBootstrap {
+  width: auto;
+  height: 80px;
+}
+
+.htmlLogo {
+  width: auto;
+  height: 100px;
+}
+
+.cssLogo {
+  width: auto;
+  height: 100px;
+}
+
+.postgreeLogo {
+  width: auto;
+  height: 85px;
+}
+
+.pythonLogo {
+  width: auto;
+  height: 100px;
+}
+
+.githubLogo {
+  width: auto;
+  height: 80px;
+}
+
+.csharpLogo {
+  width: auto;
+  height: 100px;
+}
+
+.projects {
+  text-decoration: none;
+}
+
+.card-body h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #334155;
+  font-size: 32px;
+}
+
+.card-body p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #334155;
+  font-size: 18px;
+}
+
+.containers {
+  background-color: #e0f2fe;
+}
+
+.containers h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
